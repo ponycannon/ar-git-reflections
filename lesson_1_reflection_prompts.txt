@@ -1,33 +1,49 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Fill in your answer here
+    Seeing relevant information of both files next to each other, easier than
+    switching between or find / replace.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    Fill in your answer here
+    Older versions of files can be used as exemplars, to examine the differences
+    and effects, and measure improvements or problems.
+    They can store old tricks, ideas, or mistakes, as a way to remind you how
+    you did things before, and why you changed them.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Fill in your answer here
+    Choosing when to commit, gives the option of creating useful or meaningful
+    commits, because the user chooses the user is responsible for the usefulness
+    of the versions stored. Automagically committing, removes the human element
+    of error, but removes the chance for human meaningful and useful commits.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+    Google docs is designed to be simple and automatic, as such some assumptions
+    are made to allow it to work, to treat each file separately, to auto-commit
+    and so on. Adding additional functionality, such as the ability to relate
+    multiple files, these things need human choices human input.
+
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    git log --stat super useful for over view of changes
+    git diff, gives info on those changes useful way to quickly check changes
+    without going full haxor modez
+    To find things use \<key> e.g. \Revert will find where Revert is used.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    simply put changes are not destructive, they are additive, they can be
+    reverted, examined, changed, you can break things and there is no problem,
+    just checkout to a previous versions
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    I was doing a course on udacity which said, hey use git... so that I guess.

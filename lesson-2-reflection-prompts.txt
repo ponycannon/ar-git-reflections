@@ -1,12 +1,22 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	a .git folder is created, indicating the folder is a repository, information can then be stored by git relating to versions in the .git folder
+	a .git folder is created, indicating the folder is a repository, information
+    can then be stored by git relating to versions in the .git folder
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	The staging area allows a sub section of the repository to be selected to be
+    committed, clarifies which files are being changed, only those selected will
+    be committed saves errors if another file edited by mistake, or not wanting
+    to be committed. Adds efficiency rather than committing a whole repository,
+    especially if bit speeds up commits.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+    The staging area can be used to select only the files that are logically
+    linked for the commit, review the files and then commit them.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
