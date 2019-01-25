@@ -33,5 +33,13 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    the changes between the two branches are compared and put into one file,
+    the old branch is removed, and regrows back into the master branch
+    in the log file the two branches are interleaved, but the structure of the
+    branch remains as a kind of layby turn off then re-join bit.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    manual merging is about knowing the merge is fine
+    auto merging is easier  as long as you are ok with the downsides.
